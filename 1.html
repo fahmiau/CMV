@@ -4,10 +4,12 @@
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Page Title</title>
+  <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="bootstrap-grid.css" />
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" type="text/css" href="Login.css">
+  <link rel="stylesheet" type="text/css" href="signup.css">
 </head>
 <body>
   <div>
@@ -26,7 +28,43 @@
                 <li><a href="blank">Home</a></li>
                 <li><a href="blank">Problems</a></li>
                 <li><a href="blank">Terms and Condition</a></li>
-                <li><a href="login.html">Login</a></li>
+                <li><a onclick="document.getElementById('id01').style.display='block'">Login</a></button>
+                  <!-- <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button> -->
+                  <div id="id01" class="modal">
+                    
+                    <form class="modal-content animate" action="/action_page.php">
+                  
+                      <div class="container">
+                        <label for="uname"><a>Username</a></label>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+                  
+                        <label for="psw"><a>Password</a></label>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+                          
+                        <button type="submit"><a>Login</a></button>
+                        <button type="signup"><a href="signup.html">Sign Up</a></button>
+                        <label>
+                          <input type="checkbox" checked="checked" name="remember"> <a>Remember Me</a>      </label>
+                      </div>
+                  
+                      <div class="container" style="background-color:#FFE8E8">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                        <span class="psw"><a>Forgot</a> <a href="#">password?</a></span>
+                      </div>
+                    </form>
+                  </div>
+                  
+                  <script>
+                  // Get the modal
+                  var modal = document.getElementById('id01');
+                  
+                  //When the user clicks anywhere outside of the modal, close it
+                   window.onclick = function(event) {
+                      if (event.target == modal) {
+                          modal.style.display = "none";
+                      }
+                  }
+                  </script></li>
             </ul>
           </div>
         </div>
