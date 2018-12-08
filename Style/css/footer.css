@@ -1,0 +1,77 @@
+.bg-hideung{
+    background-color: transparent;
+}
+
+.ijo{
+  background-color: black;
+}
+
+.baris-atas{
+  color: white;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.baris-tengah{
+  color: cyan;
+  padding-top: 0px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.baris-bawah{
+  color: white;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 130%;
+}
+
+li a:hover{
+  background-color: #202020;
+}
+
+.teks-atas{
+  margin-top: 13px;
+  margin-bottom: 0px;
+  font-size: 80%;
+}
+
+.teks-bawah{
+  margin-bottom: 13px;
+  margin-top: 5px;
+  font-size:50%;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: transparent;
+  color: white;
+}
+
+.fa-instagram {
+  background: transparent;
+  color: white;
+}
+
+.fa-youtube {
+  background: transparent;
+  color: white;
+}
