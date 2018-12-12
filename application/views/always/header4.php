@@ -8,7 +8,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BOOQ</title>
-  <script type="text/javascript" src="<?php echo base_url()?>style/js/login.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
@@ -19,11 +18,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url()?>style/boostrap/bootstrap-grid.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/css/all.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/css/footer.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/css/login.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/css/signup.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/css/problems.css">
+ 
+
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/css/re-newprob.css" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/js/newprob.js" />
 
 </head>
   <body >

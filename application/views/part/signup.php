@@ -1,4 +1,3 @@
-  <body >
     <div class="split left">
       <div class="left">
         <img src="<?php echo base_url("style/img/passport.png")?>">
@@ -13,8 +12,8 @@
             <h2><b>Sign Up!</b></h2><br>
             <h3><i>Please fill out the registration form</i></h3>
         </head>
-        <form>
-        <table>
+        <form action="<?php echo base_url('Signup/tambah_aksi')?>" method="POST">
+         <table>
           <tr>
             <td>First Name</td>
             <td><input type="text" name="firstname"><br></td>
@@ -32,8 +31,12 @@
             <td><input type="text" name="email"><br></td>
           </tr>
           <tr>
+            <td>Address</td>
+            <td><input type="text" name="address"><br></td>
+          </tr>
+          <tr>
             <td>Phone Number</td>
-            <td><input type="text" name="phonenumber"><br></td>
+            <td><input type="text" name="no_hp"><br></td>
           </tr>
           <tr>
             <td>Password</td>
@@ -45,12 +48,11 @@
           </tr>
         </table>
           <div class="clearfix">
-              <button type="button" class="cancelbtn">Cancel</button>
-              <button type="submit" class="cancelbtn">Sign Up</button>
+              <button type="reset" class="cancelbtn">Reset</button>
+              <button type="submit" name="signup" class="cancelbtn">Sign Up</button>
           </div>          
     </center>
         
         </form>
       </div>
     </div>
-  </body>

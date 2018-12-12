@@ -19,11 +19,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   <link href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" media="screen" href="<?php echo base_url()?>style/boostrap/bootstrap-grid.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/css/all.css">
+ 
   <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/css/footer.css">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/css/login.css">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/css/signup.css">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/css/problems.css">
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/css/re-newprob.css" />
+  <link rel="stylesheet" type="text/css" href="<?php echo base_url()?>style/js/newprob.js" />
 
 </head>
   <body >
