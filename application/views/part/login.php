@@ -4,6 +4,7 @@
     <div class='box-login-title'>
       <div class='i i-login'></div><div class='head2'><h2>LOGIN</h2></div>
     </div>
+    <form action="<? = base_url('Login/login_action');?>" method="post">
     <div class='box-login'>
       <div class='fieldset-body' id='login_form'>
         <button onclick="openLoginInfo();" class='b b-form i i-more' title='Mais Informações'></button>
@@ -26,6 +27,7 @@
           <a href="<?php echo base_url('home'); ?>">GET STARTED</a> 
       </div>
     </div>
+    </form>
   </div>
   <div class='box-info'>
 					    <p><button onclick="closeLoginInfo();" class='b b-info i i-left' title='Back to Sign In'></button><div class='head3'><h3>Need Help?</h3></div>
