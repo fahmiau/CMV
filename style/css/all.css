@@ -1,0 +1,97 @@
+html,body{
+  font-family: 'Raleway', sans-serif;  
+  background-size: 120%;
+  height: 100%;
+  font-size: 20px;
+  color: white;
+  margin:0px;
+}
+.bg{
+    background-size:120%;
+    background-repeat: :no-repeat;
+}
+
+?
+.judul{
+  font-size: 47px;
+  padding: 0%;
+}
+
+
+ul{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+li {
+  float: right;
+  list-style-type: none;
+}
+
+li a{
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+li a:hover{
+  background-color: #202020;
+}
+
+.judul{
+  margin-top: 150px;
+  font-size:250%;
+}
+
+.item{
+    margin-top:0%;
+  background-color: rgba(0,0,0);
+}
+
+.get-started-button{
+    margin-top:15px;
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    width: 200px;
+
+}
+
+.buttongs {
+  border-radius: 50px;
+}
+
+.buttongs span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.buttongs span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.buttongs:hover span {
+  padding-right: 25px;
+}
+
+.buttongs:hover span:after {
+  opacity: 1;
+  right: 0;
+}
